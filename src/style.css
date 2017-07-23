@@ -1,0 +1,209 @@
+@charset 'utf-8';
+
+html{ font-size: 100px; }
+body{
+	padding: 0;
+	margin: 0;
+	font-size: .16rem;
+}
+
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a{ text-decoration: none; }
+
+.card{
+	position: relative;
+	height: 2.1rem;
+	background-image: url('../assets/friendcircle-banner.png');
+	background-size: auto 2.1rem;
+}
+
+.avatar{
+	position: absolute;
+	right: .16rem;
+	bottom: .16rem;
+}
+.avatar img{
+	display: block;
+	padding: .01rem;
+	width: .48rem;
+	height: .48rem;
+	border-radius: .04rem;
+	background: #fff;
+}
+.has-new-twiter:after{
+	content: '';
+	position: absolute;
+	right: -.04rem;
+	top: -.04rem;
+	width: .08rem;
+	height: .08rem;
+	border-radius: 50%;
+	background: red;
+}
+
+.nickname{
+	position: absolute;
+	right: .78rem;
+	bottom: .33rem;
+	font-size: .16rem;
+	color: #fff;
+	text-shadow: .01rem .01rem .01rem rgba(0, 0, 0, .7);
+}
+
+/* 单条动态 */
+.twiter{
+	padding: .16rem;
+	border-top: .01rem solid #acb1b7;
+}
+.twiter:first-child{ border-top: none; }
+.twiter:after,
+.twiter:before{
+	content: '';
+	display: block;
+	clear: both;
+}
+.twiter-avatar{
+	float: left;
+	margin: 0 .08rem 0 0;
+	width: .4rem;
+	height: .4rem;
+	border-radius: .04rem;
+}
+.twiter-main{
+	overflow: hidden;
+}
+.twiter-nickname{
+	margin-bottom: .02rem;
+	font-size: .15rem;
+	font-weight: bold;
+	color: #41454D;
+}
+.twiter-content{
+	margin-bottom: .08rem;
+	font-size: .14rem;
+	color: #41454D;
+}
+.twiter-btn{
+	margin-bottom: .16rem;
+	font-size: .12rem;
+}
+.twiter-btn-like,
+.twiter-btn-add,
+.twiter-btn-delete{
+	display: inline-block;
+	width: .75rem;
+	color: #80858C;
+}
+.twiter-btn-like:before,
+.twiter-btn-add:before,
+.twiter-btn-delete:before{
+	content: url('../assets/icon-like.svg');
+	display: inline-block;
+	margin-right: .04rem;
+	width: .17rem;
+	height: .17rem;
+	vertical-align: text-bottom;
+}
+.twiter-btn-like:before{ content: url(../assets/icon-like.svg); }
+.twiter-btn-add:before{ content: url(../assets/icon-add.svg); }
+.twiter-btn-delete:before{ content: url('../assets/icon-delete.svg'); }
+.twiter-newstime{
+	font-size: 12px;
+	color: #acb1b7;
+}
+.twiter-share-links,
+.twiter-images{
+	margin-bottom: .12rem;
+	font-size: .13rem;
+}
+.twiter-share-links{
+	position: relative;
+	overflow: hidden;
+	padding: .06rem;
+	height: .4rem;
+	background: #f7f7f7;
+	color: #41454d;
+}
+.twiter-share-links a{
+	display: block;
+	color: #41454D;
+}
+.twiter-share-links img{
+	margin-right: .06rem;
+	vertical-align: middle;
+	width: .4rem;
+	height: .4rem;
+}
+.twiter-share-links span{
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.twiter-images{ margin-right: .23rem; }
+.twiter-images img{
+	display: block;
+	max-width: 100%;
+}
+/* one image */
+.twiter-images > a{
+	display: inline-block;
+	width: 1.72rem;
+	height: 1.72rem;
+}
+.twiter-tips{
+	display: block;
+	margin-top: -.04rem;
+	text-align: center;
+	font-size: .12rem;
+	line-height: 1.0;
+	color: #acb1b8;
+}
+
+/* 评论及回复 */
+.twiter-comment{ margin-bottom: .04rem; font-size: .14rem;}
+.twiter-comment-author,
+.twiter-comment-reply-to{ color: #5bafff; }
+.twiter-comment-content{ color: #41454d; }
+.twiter-comment-reply-mark{ margin: 0 .25em; }
+.twiter-comments-tips{
+	font-size: .12rem;
+	color: #acb1b7;
+}
+.twiter-comments-collapse .twiter-comments-tips:after,
+.twiter-comments-expand .twiter-comments-tips:after{
+	display: inline-block;
+	margin-left: .04rem;
+	width: .14rem;
+	height: .14rem;
+}
+.twiter-comments-collapse .twiter-comments-tips:after{
+	content: url('../assets/icon-arrow-down.svg');
+}
+.twiter-comments-expand .twiter-comments-tips:after{
+	content: url('../assets/icon-arrow-up.svg');
+}
+
+/* row */
+.row{ margin-top: .04rem; margin-left: -.04rem; }
+.row:first-child{ margin-top: 0; }
+.row:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.col-4,
+.col-6{
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding-left: .04rem;
+}
+.col-4{ width: 33.3333%; }
+.col-6{ width: 50%; }

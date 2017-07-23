@@ -1,0 +1,80 @@
+[{
+	"id": 2001,
+	"uid": 1001,
+	"nickname": "星星点灯",
+	"avatar": "./assets/photo.jpg",
+	"content": "滴滴出行，出行无忧！",
+	"likes": 0,
+	"hasLiked": false,
+	"total": 0,
+	"newsTime": 1500520701337
+}, {
+	"id": 2001,
+	"uid": 1002,
+	"nickname": "凌度",
+	"avatar": "./assets/avatar.png",
+	"content": "滴滴出行，出行无忧！",
+	"shareLinks": "<a href='./static.html'><img src='./assets/avatar.png'><span>滴滴出行，出行无忧！</span</a>",
+	"likes": 0,
+	"hasLiked": false,
+	"total": 0,
+	"newsTime": 1500220701337
+}, {
+	"id": 2001,
+	"uid": 1002,
+	"nickname": "凌度",
+	"avatar": "./assets/avatar.png",
+	"content": "滴滴出行，出行无忧！",
+	"shareLinks": "<a href='./static.html'><img src='./assets/avatar.png'><span>滴滴出行，出行无忧！滴滴出行，出行无忧！滴滴出行，出行无忧！</span</a>",
+	"likes": 0,
+	"hasLiked": false,
+	"total": 0,
+	"newsTime": 1300520701337
+}, {
+	"id": 2001,
+	"uid": 1002,
+	"nickname": "凌度",
+	"avatar": "./assets/avatar.png",
+	"content": "滴滴出行，出行无忧！",
+	"images": ["./assets/photo.jpg"],
+	"likes": 0,
+	"hasLiked": false,
+	"total": 0,
+	"newsTime": 1500520701337
+}, {
+	"id": 2001,
+	"uid": 1002,
+	"nickname": "星星点灯",
+	"avatar": "./assets/photo.jpg",
+	"content": "滴滴出行，出行无忧！ by 星星点灯",
+	"images": ["./assets/photo.jpg", "./assets/photo.jpg", "./assets/photo.jpg", "./assets/photo.jpg", "./assets/photo.jpg", "./assets/photo.jpg"],
+	"likes": 2,
+	"comments": [{
+		"id": 3001,
+		"author": 1003,
+		"nickname": "星星点灯",
+		"content": "Hello word.",
+		"newsTime": 1500520701337
+	}],
+	"total": 6,
+	"newsTime": 1400520701337
+}, {
+	"id": 2001,
+	"uid": 1002,
+	"nickname": "甲壳虫",
+	"avatar": "./assets/avatar.png",
+	"content": "滴滴出行，出行无忧！ by 甲壳虫",
+	"images": ["./assets/photo.jpg", "./assets/photo.jpg", "./assets/photo.jpg", "./assets/photo.jpg"],
+	"likes": 99,
+	"comments": [{
+		"id": 3001,
+		"author": 1003,
+		"nickname": "星星点灯",
+		"replyTo": 1002,
+		"replayToNickname": "甲壳虫",
+		"content": "Hello word.",
+		"newsTime": 1500520701337
+	}],
+	"total": 16,
+	"newsTime": 1500500701337
+}]

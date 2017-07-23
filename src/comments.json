@@ -1,0 +1,45 @@
+[{
+	"id": 3001,
+	"uid": 1001,
+	"nickname": "星星点灯",
+	"content": "Hello word.",
+	"newstime": 1500520701337
+}, {
+	"id": 3002,
+	"uid": 1003,
+	"nickname": "Just do IT.",
+	"content": "How are you?",
+	"newstime": 1500520701337
+}, {
+	"id": 3003,
+	"uid": 1002,
+	"nickname": "甲壳虫",
+	"replyTo": 1001,
+	"replayToNickname": "星星点灯",
+	"content": "美国首次获准对华出口大米 双方谈判耗时十多年",
+	"newstime": 1500520701337
+}, {
+	"id": 3004,
+	"uid": 1001,
+	"nickname": "星星点灯",
+	"replyTo": 1002,
+	"replayToNickname": "甲壳虫",
+	"content": "上海倒塌房屋现场已搜救出6人 4人抢救无效死亡",
+	"newstime": 1500520701337
+}, {
+	"id": 3005,
+	"uid": 1001,
+	"nickname": "星星点灯",
+	"replyTo": 1003,
+	"replayToNickname": "Just do IT.",
+	"content": "中国花游队获首枚世锦赛金牌",
+	"newstime": 1500520701337
+}, {
+	"id": 3006,
+	"uid": 1001,
+	"nickname": "星星点灯",
+	"replyTo": 1002,
+	"replayToNickname": "甲壳虫",
+	"content": "说的好",
+	"newstime": 1500520701337
+}]

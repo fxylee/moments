@@ -1,0 +1,25 @@
+[{
+	"id": 1001,
+	"nickname": "星星点灯",
+	"avatar": "./assets/photo.jpg",
+	"hasNewTwiter": true,
+	"banner": "/assets/friendcircle-banner.png"
+}, {
+	"id": 1002,
+	"nickname": "甲壳虫",
+	"avatar": "/assets/avata.png",
+	"hasNewTwiter": false,
+	"banner": "/assets/friendcircle-banner.png"
+}, {
+	"id": 1003,
+	"nickname": "Just do IT.",
+	"avatar": "/assets/avata.png",
+	"hasNewTwiter": false,
+	"banner": "/assets/friendcircle-banner.png"
+}, {
+	"id": 1004,
+	"nickname": "张小六",
+	"avatar": "/assets/photo.jpg",
+	"hasNewTwiter": true,
+	"banner": "/assets/friendcircle-banner.png"
+}]
